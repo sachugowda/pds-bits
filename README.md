@@ -21,6 +21,7 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 ### **Introduction to MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/01_Intro_MPI.md)
 - [Video](https://www.youtube.com/watch?v=AXs5BCectDM&t=330s)
+- [Use Case: Solving Numerical Integration using the Trapezoidal Rule in MPI](https://github.com/sachugowda/pds-bits/blob/main/CS4/03_Usecase_MPI%20can%20be%20used%20for%20numerical%20integration.md) 
 ### **Introduction Communication in MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/02_Communication_Intro.md)
 
