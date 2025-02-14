@@ -33,6 +33,10 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 ### **MPI Scatter, Gather, and Allgather**
 - [Notes](https://mpitutorial.com/tutorials/mpi-scatter-gather-and-allgather/)
 - [Examples](https://enccs.github.io/intermediate-mpi/collective-communication-pt2/#exercise-scatter-and-gather-1)
+### **Derived datatypes: MPI_Datatype**
+- [Notes](https://enccs.github.io/intermediate-mpi/derived-datatypes-pt2/)
+- [Video](https://www.youtube.com/watch?v=diRQmPlBhuo)
+
 
 
 ---
