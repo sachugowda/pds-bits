@@ -30,6 +30,9 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 - [Notes](https://wgropp.cs.illinois.edu/courses/cs598-s15/lectures/lecture29.pdf)
 ### **Collective vs. Point-to-Point Communication in MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/05_point-to-point_vs_collective.md)
+### **MPI Scatter, Gather, and Allgather**
+- [Notes](https://mpitutorial.com/tutorials/mpi-scatter-gather-and-allgather/)
+- [Examples](https://enccs.github.io/intermediate-mpi/collective-communication-pt2/#exercise-scatter-and-gather-1)
 
 
 ---
