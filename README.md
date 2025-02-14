@@ -21,7 +21,6 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 ### **Introduction to MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/01_Intro_MPI.md)
 - [Video](https://www.youtube.com/watch?v=AXs5BCectDM&t=330s)
-- 
 ### **Introduction Communication in MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/02_Communication_Intro.md)
 
