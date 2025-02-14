@@ -6,11 +6,16 @@ This repository contains materials, notes, and practical implementations for the
 ## **Module 1: Introduction (Coming Soon)**
 _Updates will be added soon._
 
+### **Lab 1**
+For practical exercises related to Module 1, refer to: [Lab 1](https://github.com/sachugowda/pds-bits/blob/main/lab/lab1.md)
+
 ---
 
-## **Module 2: Distributed Processing (Sessions 3-5)**
+## **Module 2: Distributed Processing with MPI**
 This module focuses on parallel computation across multiple nodes, efficient communication using **OpenMPI**, handling faults, and optimizing performance.
 
+### **Lab 2**
+For practical exercises related to Module 2, refer to: [Lab 2](https://github.com/sachugowda/pds-bits/blob/main/lab/lab2.md)
 
 ---
 
@@ -19,5 +24,4 @@ This module focuses on parallel computation across multiple nodes, efficient com
 - Share your **resources**
 
 ---
-
 
