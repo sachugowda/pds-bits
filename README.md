@@ -26,6 +26,8 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/02_Communication_Intro.md)
 ### **Handling Input and Output in MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/04_input%26output.md)
+### **Collective Communications**
+- [Notes](https://wgropp.cs.illinois.edu/courses/cs598-s15/lectures/lecture29.pdf)
 
 ---
 
