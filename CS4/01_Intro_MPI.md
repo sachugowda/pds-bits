@@ -21,21 +21,25 @@ In a **distributed-memory system**, memory associated with a processor is **only
 - **Supports synchronous (blocking) and asynchronous (non-blocking) communication.**
 
 ---
-## **3. Basics of MPI Programming**
-### **3.1 Understanding MPI Processes**
-- An **MPI process** is a program instance running on a core-memory pair.
-- Each process has a unique **rank (ID)** within an MPI **communicator**.
-- Multiple processes are executed in **parallel** with explicit communication.
+## **3. Communicators and SPMD in MPI**
+### **3.1 MPI Communicators**
+A **communicator** in MPI is a collection of processes that can communicate with each other. MPI provides a default communicator called **MPI_COMM_WORLD**, which includes all processes started by the user.
 
-### **3.2 Writing an MPI Program**
-MPI programs follow a **Single Program, Multiple Data (SPMD)** model, meaning:
-- The same program is executed by **all processes**.
-- Each process performs different tasks based on **its rank**.
+Key MPI functions related to communicators:
+```c
+int MPI_Comm_size(MPI_Comm comm, int *comm_sz_p);  // Gets number of processes in a communicator
+int MPI_Comm_rank(MPI_Comm comm, int *my_rank_p);  // Gets rank of calling process
+```
+- `MPI_Comm_size` returns the total number of processes in the communicator.
+- `MPI_Comm_rank` returns the unique rank (ID) of the calling process.
 
-### **3.3 Example: MPI "Hello World"**
-The following **MPI program** initializes MPI, assigns ranks to processes, and prints a message from each process.
+### **3.2 SPMD (Single Program, Multiple Data) Model**
+MPI programs follow the **Single Program, Multiple Data (SPMD)** paradigm, where:
+- A single program is written and executed by all processes.
+- Each process operates on its **own portion of data**.
+- Process behavior is differentiated using **MPI rank**.
 
-#### **C Code for Basic MPI Communication**
+### **3.3 Example: MPI "Hello World" with Communicators and SPMD**
 ```c
 #include <stdio.h>
 #include <string.h>  // For strlen
@@ -112,58 +116,4 @@ Greetings from process 2 of 4!
 Greetings from process 3 of 4!
 ```
 ---
-## **5. MPI Communication and Performance Considerations**
-### **5.1 Message-Passing in MPI**
-MPI supports **two** types of communication:
-1. **Point-to-Point Communication**: Between two processes.
-   - **Blocking**: `MPI_Send`, `MPI_Recv` (Waits for completion).
-   - **Non-blocking**: `MPI_Isend`, `MPI_Irecv` (Allows overlapping computation and communication).
-2. **Collective Communication**: Among multiple processes.
-   - **Broadcast (`MPI_Bcast`)**: One process sends data to all.
-   - **Scatter (`MPI_Scatter`)**: Master distributes different parts of data.
-   - **Gather (`MPI_Gather`)**: All processes send data to Master.
-
----
-## **6. Communication Cost Analysis**
-MPI communication introduces **costs** due to **latency, bandwidth, and payload size**:
-1. **Latency**: Time taken for the message to start reaching its destination.
-2. **Bandwidth**: Rate at which data is transferred (MB/s).
-3. **Payload Size**: Amount of data transferred in each message.
-
-### **Measuring Communication Cost in MPI**
-To measure **transfer time**, modify the program:
-```c
-double start_time, end_time;
-start_time = MPI_Wtime();  // Start time
-MPI_Send(data, CHUNK_SIZE, MPI_INT, 0, 0, MPI_COMM_WORLD);
-end_time = MPI_Wtime();  // End time
-printf("Process %d: Transfer time = %f seconds\n", rank, end_time - start_time);
-```
-Formula for **Bandwidth Calculation**:
-Bandwidth = Payload Size / Transfer Time
-
----
-## **7. Flow Control & Throttling in MPI**
-### **7.1 What is Throttling?**
-Throttling is the process of **limiting the data transfer rate** to prevent **network congestion**.
-
-### **7.2 Why is Throttling Important?**
-- Prevents network overload.
-- Reduces **packet loss** and retransmissions.
-- Ensures fair bandwidth allocation across processes.
-
-### **7.3 Implementing Flow Control in MPI**
-To **avoid sending too much data at once**, the **Master Node** can send data only when **Slaves acknowledge receipt**:
-```c
-int ack = 1;
-MPI_Send(data, CHUNK_SIZE, MPI_INT, slave, 0, MPI_COMM_WORLD);
-MPI_Recv(&ack, 1, MPI_INT, slave, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-```
----
-## **8. Summary**
-- **Distributed-memory systems** require explicit **message-passing** for inter-process communication.
-- **MPI provides a scalable solution** for distributed computing.
-- **Blocking (`MPI_Send`) vs. Non-Blocking (`MPI_Isend`) Communication.**
-- **Performance metrics**: Latency, Bandwidth, and Payload Size.
-- **Flow Control (Throttling)** prevents network congestion.
 
