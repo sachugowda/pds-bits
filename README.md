@@ -18,6 +18,11 @@ This module focuses on parallel computation across multiple nodes, efficient com
 For practical exercises related to Module 2, refer to: [Lab 2](https://github.com/sachugowda/pds-bits/blob/main/lab/lab2.md)
 
 ---
+### **Introduction to MPI**
+- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/01_Intro_MPI.md)
+- [Video](https://www.youtube.com/watch?v=AXs5BCectDM&t=330s)
+
+---
 
 ## **How to Contribute**
 - Feel free to submit **issues and improvements** via GitHub.
