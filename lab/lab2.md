@@ -126,14 +126,22 @@ This generates an executable **mpi_program**.
 ---
 
 ## **3. Running the MPI Cluster**
+
 ### **3.1 Running on All Nodes**
-Start the MPI program from the **Master Node**:
+Before running the MPI program, copy the executable to all nodes:
+```bash
+scp ./mpi_program user@node2:~/mpi_program
+scp ./mpi_program user@node3:~/mpi_program
+```
+
+You only need to run `mpirun` from the **Master Node**. MPI will handle launching the program on the specified nodes. Run the following command from the Master Node:
 ```bash
 mpirun --hostfile ~/mpi_hosts -np 3 ./mpi_program
 ```
-This runs:
+This will automatically start the MPI program on all specified nodes:
 - **1 Master Node (Rank 0)**
 - **2 Slave Nodes (Rank 1, 2)**
+
 
 ---
 
