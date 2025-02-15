@@ -7,7 +7,7 @@ This repository contains materials, notes, and practical implementations for the
 _Updates will be added soon._
 
 ### **Lab 1**
-For practical exercises related to Module 1, refer to: [Lab 1](https://github.com/sachugowda/pds-bits/blob/main/lab/lab1.md)
+For practical exercises related to Module 1, refer to: [Lab 1](https://github.com/sachugowda/pds-bits/blob/main/lab/lab1.md), [Bloack Diagram ](https://github.com/sachugowda/pds-bits/blob/main/lab/IPC_PIPE_RPC.pdf) 
 
 ---
 
