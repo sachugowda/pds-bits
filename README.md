@@ -36,7 +36,8 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 ### **Derived datatypes: MPI_Datatype**
 - [Notes](https://enccs.github.io/intermediate-mpi/derived-datatypes-pt2/)
 - [Video](https://www.youtube.com/watch?v=diRQmPlBhuo)
-
+### **Performance**
+- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/06_performance.md)
 
 
 ---
