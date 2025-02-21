@@ -41,7 +41,6 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 
 ---
 ## **Module 3: Multi-threading for single node performance**
-This module focuses on parallel computation across multiple nodes, efficient communication using **OpenMPI**, handling faults, and optimizing performance.
 
 ### **Processes, threads, and Pthreads**
 - [Notes](https://www.geeksforgeeks.org/difference-between-process-and-thread/)
