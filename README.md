@@ -49,7 +49,10 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS5/pthreds.md)
   
 ### **Matrix-vector multiplication using Pthreads**
-- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS5/vectmulpt.md) 
+- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS5/vectmulpt.md)
+
+### **Critical Section**
+- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS5/criticalsections.md) 
 ---
 
 
