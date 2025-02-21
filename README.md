@@ -42,8 +42,11 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 ---
 ## **Module 3: Multi-threading for single node performance**
 
-### **Processes, threads, and Pthreads**
+### **Processes, threads**
 - [Notes](https://www.geeksforgeeks.org/difference-between-process-and-thread/)
+
+### **Pthreads**
+- [Notes](https://www.geeksforgeeks.org/difference-between-process-and-thread/)  https://github.com/sachugowda/pds-bits/tree/main/CS5
 ---
 
 
