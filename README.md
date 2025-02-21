@@ -24,6 +24,9 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 - [Use Case: Solving Numerical Integration using the Trapezoidal Rule in MPI](https://github.com/sachugowda/pds-bits/blob/main/CS4/03_Usecase_MPI%20can%20be%20used%20for%20numerical%20integration.md) 
 ### **Introduction Communication in MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/02_Communication_Intro.md)
+### **Introduction Data Distribution**
+- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS3/datapart.md)
+- [Blog](https://techfortalk.co.uk/2025/02/19/parallel-processing-best-data-partitioning-strategies-for-maximum-efficiency/)
 ### **Handling Input and Output in MPI**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS4/04_input%26output.md)
 ### **Collective Communications**
