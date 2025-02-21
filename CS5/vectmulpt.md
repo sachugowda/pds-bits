@@ -1,6 +1,6 @@
 # Matrix-vector multiplication
 
-**step-by-step tutorial** on how to write a **Pthreads** program that multiplies a matrix **A** (size \(m \times n\)) by a vector **x** (size \(n\)). The result is a vector **y** (size \(m\)). We’ll divide the rows of **A** among different threads, so each thread computes part of the result **y**.  
+**step-by-step tutorial** on how to write a **Pthreads** program that multiplies a matrix    A (size 𝑚×𝑛) by a vector **x** (size \(n\)). The result is a vector **y** (size \(m\)). We’ll divide the rows of **A** among different threads, so each thread computes part of the result **y**.  
 
 ---
 
@@ -8,9 +8,9 @@
 
 Recall that the product of a matrix \(A\) and a vector \(x\), denoted \(y = A x\), is calculated as follows:
 
-\[
-y_i = \sum_{j=0}^{n-1} A_{ij} \times x_j \quad \text{for each row } i \in \{0, 1, \ldots, m-1\}.
-\]
+
+$y_i = \sum_{j=0}^{n-1} A_{ij} \times x_j \quad \text{for each row } i \in \{0, 1, \ldots, m-1\}$.
+
 
 In **serial** code, we might do:
 
