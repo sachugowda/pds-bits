@@ -45,6 +45,9 @@ For practical exercises related to Module 2, refer to: [Lab 2](https://github.co
 ---
 ## **Module 3: Multi-threading for single node performance**
 
+### **Lab 3**
+For practical exercises related to Module 3, refer to: [Lab 3](https://github.com/sachugowda/pds-bits/blob/main/lab/lab3.md), 
+
 ### **Processes, threads**
 - [Notes](https://www.geeksforgeeks.org/difference-between-process-and-thread/)
 
