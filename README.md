@@ -69,6 +69,9 @@ For practical exercises related to Module 3, refer to: [Lab 3](https://github.co
 ### **First Program in OpenMP**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS7/helloopenmp.md)
 
+### **Mutext in OpenMP**
+- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS7/mutexomp.md)
+
 ---
 
 
