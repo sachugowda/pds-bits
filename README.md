@@ -80,4 +80,5 @@ For practical exercises related to Module 3, refer to: [Lab 3](https://github.co
 ## **Resources**
 - [Intro to Parallel and Distributed Programming - Complete Concepts](https://github.com/amreshcode/BITS-WILP-CloudComputing/tree/main/Intro%20to%20Parallel%20and%20Distributed%20Programming)
 - [MPI and OpenMP](https://princetonuniversity.github.io/PUbootcamp/sessions/parallel-programming/Intro_PP_bootcamp_2018.pdf)
+- [OpenMP](https://github.com/ilyak/openmp-tutorial)
 
