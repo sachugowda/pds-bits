@@ -66,6 +66,9 @@ For practical exercises related to Module 3, refer to: [Lab 3](https://github.co
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS5/mutex.md)
 ### **MPI, Pthreads, and OpenMP**
 - [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS7/basicdiff.md) 
+### **Frist Program in OpenMP**
+- [Notes](https://github.com/sachugowda/pds-bits/blob/main/CS7/helloopenmp.md)
+
 ---
 
 
