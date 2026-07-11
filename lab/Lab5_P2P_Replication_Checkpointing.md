@@ -664,7 +664,7 @@ Important conclusions:
 
 ---
 
-## 18. Viva Questions
+## 18. Questions
 
 1. Why does the master become a bottleneck in large-scale distributed systems?
 2. What is the difference between master-centric replication and P2P replication?
